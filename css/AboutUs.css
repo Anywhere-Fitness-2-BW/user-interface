@@ -193,6 +193,8 @@ body{
 
 .aboutUsHeader{
     font-size: 170%;
+    width:75%;
+    margin-left: 15%;
 }
 
 .aboutUsTeam{
@@ -241,7 +243,6 @@ p{
     display: flex;
 }
 
-
 /*React-2 Team */
 .React-2-Team{
     display: flex;
@@ -266,5 +267,13 @@ h1{
 
     .aboutUsHeader{
         font-size: 100%;
+    }
+
+    .backendTeam img{
+      width: 50%;
+    }
+
+    .React-2-Team img{
+      width: 50%;
     }
 }
