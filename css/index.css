@@ -188,25 +188,40 @@ footer {
     left: 27%;
     top: 10%;
   }
+  .first_section {
+    flex-direction: column-reverse;
+  }
   .first_section p {
-    padding-bottom: 13rem;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 20%;
   }
   .first_section img {
     width: 37%;
-    padding: bottom 0;
+    margin-left: 30%;
+  }
+  .second_section {
+    flex-direction: column-reverse;
   }
   .second_section p {
-    padding-bottom: 13rem;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 20%;
   }
   .second_section img {
     width: 37%;
-    padding: 0;
+    margin-left: 30%;
+  }
+  .third_section {
+    flex-direction: column-reverse;
   }
   .third_section p {
-    padding-bottom: 13rem;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 20%;
   }
   .third_section img {
     width: 37%;
-    padding: 0;
+    margin-left: 30%;
   }
 }
