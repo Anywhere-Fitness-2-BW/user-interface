@@ -1,0 +1,148 @@
+
+*{
+    text-align:center;
+    //background-color: red; //less watcher test
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.top_section{
+
+    h1{
+        position: absolute;
+        top:20%;
+        // left:35%;
+        width: 40%;
+        text-align: center;
+        color:white;
+        font-size: 300%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.first_section{
+    .display_row_reverse();
+    margin-top: 2rem;
+
+    p{
+        background-color: var(--text-cards);
+        color: #F0EBD8;
+        padding-top:8rem;
+        // padding-left: 14rem;
+        // padding-right:13rem;
+        width:100%;
+        font-size: 200%;
+    }
+
+    img{
+        //width:300px;
+        width:37%;
+        box-shadow: 3px 3px 3px 3px;
+    }
+}
+
+.second_section{
+    .display_flex_end();
+    margin-top: 2rem;
+
+    p{
+        background-color: var(--text-cards);
+        color: #F0EBD8;
+        padding-left: 1rem;
+        padding-top:8rem;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    img{
+        //width: 300px;
+        width: 37%;
+        box-shadow: 3px 3px 3px 3px;
+    }
+}
+
+.third_section{
+    padding-bottom: 1rem;
+    .display_row_reverse();
+    margin-top: 2rem;
+
+    p{
+        background-color: var(--text-cards);
+        color: #F0EBD8;
+        padding-right: rem;
+        padding-top:13rem;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    img{
+        //width: 300px;
+        width: 37%;
+        box-shadow: 3px 3px 3px 3px;
+    }
+}
+
+@media(max-width:500px){
+
+
+    .top_section{
+        
+        h1{
+            font-size: 200%;
+            left: 27%;
+            top: 10%;
+        }
+    }
+
+    .first_section{
+        flex-direction: column-reverse;
+
+        p{
+            padding: 1rem;
+            width: 70%;
+            margin-left:20%;
+        }
+
+        img{
+            width: 37%;
+            margin-left: 30%;
+        }
+    }
+
+    .second_section{
+        flex-direction: column-reverse;
+
+        p{
+            padding: 1rem;
+            width: 70%;
+            margin-left:20%;
+        }
+
+        img{
+            width: 37%;
+            margin-left: 30%;
+        }
+    }
+
+    .third_section{
+        flex-direction: column-reverse;
+
+        p{
+            padding: 1rem;
+            width: 70%;
+            margin-left:20%;
+        }
+
+        img{
+            width: 37%;
+            margin-left: 30%;
+        }
+    }
+}

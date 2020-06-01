@@ -9,12 +9,133 @@
   --text-cards: #1D2D44;
 }
 html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
 body {
   background-color: lightgrey;
   color: #0D1321;
   background-color: #F0EBD8;
-  margin: 0;
-  padding: 0;
 }
 html ::-webkit-scrollbar,
 body ::-webkit-scrollbar {
@@ -106,57 +227,6 @@ main {
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
-.container {
-  max-width: 800px;
-  margin: 0 auto !important;
-  float: none !important;
-}
-.top_section img {
-  width: 800px;
-}
-.first_section {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.first_section p {
-  background-color: var(--text-cards);
-  color: #F0EBD8;
-}
-.first_section img {
-  width: 300px;
-  box-shadow: 3px 3px 3px 3px;
-}
-.second_section {
-  display: flex;
-  justify-content: flex-end;
-}
-.second_section p {
-  background-color: var(--text-cards);
-  color: #F0EBD8;
-}
-.second_section img {
-  width: 300px;
-  box-shadow: 3px 3px 3px 3px;
-}
-.third_section {
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: row-reverse;
-}
-.third_section p {
-  background-color: var(--text-cards);
-  color: #F0EBD8;
-}
-.third_section img {
-  width: 300px;
-  box-shadow: 3px 3px 3px 3px;
-}
-footer {
-  background-color: grey;
-  text-align: center;
-  padding: 1rem;
-  color: #F0EBD8;
-}
 body {
   text-align: center;
 }
@@ -228,4 +298,10 @@ h1 {
   .React-2-Team img {
     width: 50%;
   }
+}
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 1rem;
+  color: #F0EBD8;
 }
